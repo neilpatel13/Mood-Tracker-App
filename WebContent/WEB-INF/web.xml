@@ -1,0 +1,19 @@
+<web-app>
+  <servlet>
+    <servlet-name>SubmitMoodServlet</servlet-name>
+    <servlet-class>SubmitMoodServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SubmitMoodServlet</servlet-name>
+    <url-pattern>/submitMood</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewEntriesServlet</servlet-name>
+    <servlet-class>ViewEntriesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewEntriesServlet</servlet-name>
+    <url-pattern>/viewEntries</url-pattern>
+  </servlet-mapping>
+</web-app>

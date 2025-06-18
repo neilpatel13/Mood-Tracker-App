@@ -1,0 +1,6 @@
+CREATE TABLE mood_entries (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    mood_value INT NOT NULL,
+    note TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
